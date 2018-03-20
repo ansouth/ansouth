@@ -316,6 +316,9 @@
     background: url("../../img/list_bg_b.png")repeat-y;
 
 }
+.module_list{
+    margin-bottom: 20px;
+}
 .module_list ul{
     background: url("../../img/list_bg_b.png")no-repeat  -209px bottom;
     padding: 24px 8px  15px;
@@ -330,20 +333,47 @@
     text-decoration: none;
     padding-left: 30px;
     font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .module_list a:hover{
     color: #b20e00;
     text-decoration: none;
     background: #fae191;
 }
-.li_last{
-    border: none;
+.module_join{
+    display: block;
+    width: 209px;
+    background: url("../../img/list_bg_2.png")repeat-y -209px 0;
+}
+.module_join_t{
+    width: 209px;
+    background: url("../../img/list_bg_2.png")no-repeat;
+}
+.module_join_d{
+    width: 209px;
+    background: url("../../img/list_bg_2.png")no-repeat -418px bottom;
 }
 
+.Join_form{}
+.Join_form p{
+    width: 180px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+    margin: 0 auto;
+}
+.Join_form .text{
+    width: 175px;
+    height: 25px;
+    line-height: 25px;
+    background: #ffffff;
+    border: 1px solid #9c9c9c;
+}
+.Join_form .btn{}
 
-
-
-
+.Join_list{}
 
 
 
